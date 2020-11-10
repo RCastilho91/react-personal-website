@@ -1,4 +1,42 @@
 {
-  "title": "Software Developer with a Data Science & Analytics background",
-  "subtitle": "2 years working as a developer. 9 years working with data analytics, data science and Machine Learning modelling. Meet the developer who understands your business needs."
+  "header": [
+    {
+      "hero": "Home",
+      "tech": "Technologies",
+      "companies": "Companies",
+      "testimonials": "Testimonials",
+      "articles": "Articles",
+      "socials": "Contact"
+    }
+  ],
+  "hero": [
+    {
+      "title": "Software Developer with a Data Science & Analytics background",
+      "subtitle": "2 years working as a developer. 9 years working with data analytics, data science and Machine Learning modelling. Meet the developer who understands your business needs."
+    }
+  ],
+  "companies": [
+    {
+      "title": "Experience with companies that are giants in their industries",
+      "dataTitle": "With Data Science & Analytics",
+      "developmentTitle": "With Software Development"
+    }
+  ],
+  "testimonials": [
+    {
+      "testimonialBy": "Eduardo Setani",
+      "role": "Sales & Operations Execution Excellence Manager",
+      "company": "Dassault Systèmes",
+      "location": "São Paulo, Brazil",
+      "message": ""
+    },
+    {
+      "testimonialBy": "Samuel Bulmer",
+      "role": "Founder",
+      "company": "LNG Converter",
+      
+    }
+  ],
+  "articles": [],
+  "socials": []
 }

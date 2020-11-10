@@ -26,12 +26,12 @@ function App() {
   return (
     <div className="App">
       <Header {...textToBeSent} switchLanguage={switchLanguage} />
-      <Hero {...textToBeSent} />
+      <Hero {...textToBeSent.hero} />
       <Tech />
-      <Companies {...textToBeSent} />
-      <Testimonials {...textToBeSent} />
-      <Articles {...textToBeSent} />
-      <SocialsContact {...textToBeSent} />
+      <Companies {...textToBeSent.companies} />
+      <Testimonials {...textToBeSent.testimonials} />
+      <Articles {...textToBeSent.articles} />
+      <SocialsContact {...textToBeSent.socials} />
     </div>
   );
 }
