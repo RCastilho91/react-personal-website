@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+
+// components
+import Header from "./components/header/Header.jsx";
+import Hero from "./components/body/hero/Hero.jsx";
+import Tech from "./components/body/tech/Tech.jsx";
+import Companies from "./components/body/companies/Companies.jsx";
+import Testimonials from "./components/body/testimonials/Testimonials.jsx";
+import Articles from "./componets/body/articles/Articles.jsx";
+import SocialsContact from "./components/body/socials-contact/SocialsContact.jsx";
+
+// functionalities
+import englishText from "./assets/text/English.json";
+import portugueseText from "./assets/text/Portuguese.json";
 
 function App() {
+  const [language, setLanguage] = useState("English");
+
+  const textToBeSent = language === "English" ? englishText : portugueseText;
+
+  const switchLanguage = (e) => {
+    setLanguage(e.target.value);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header {...textToBeSent} switchLanguage={switchLanguage} />
+      <Hero {...textToBeSent} />
+      <Tech />
+      <Companies {...textToBeSent} />
+      <Testimonials {...textToBeSent} />
+      <Articles {...textToBeSent} />
+      <SocialsContact {...textToBeSent} />
     </div>
   );
 }
