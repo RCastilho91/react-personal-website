@@ -1,0 +1,10 @@
+.hero-container {
+    height: 100vh;
+    display: block;
+    padding-top: 15vh;
+}
+
+.left-hero, .right-hero {
+    display: inline-block;
+    width: 35vw;
+}
