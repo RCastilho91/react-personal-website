@@ -12,7 +12,9 @@
   "hero": [
     {
       "title": "Software Developer with a Data Science & Analytics background",
-      "subtitle": "2 years working as a developer. 9 years working with data analytics, data science and Machine Learning modelling. Meet the developer who understands your business needs."
+      "subtitle": "2 years working as a developer. 9 years working with data analytics, data science and Machine Learning modeling. Meet the developer who understands your business needs.",
+      "techLinkButton": "Check out my stack",
+      "scheduleLinkButton": "Schedule a conversation with me"
     }
   ],
   "companies": [
@@ -28,15 +30,21 @@
       "role": "Sales & Operations Execution Excellence Manager",
       "company": "Dassault Systèmes",
       "location": "São Paulo, Brazil",
-      "message": ""
+      "message": "I worked with Rodrigo at Dassault Systemes, with him being my peer and mentor throughout the entire business and activity onboarding. Working with him for 4 months, I noticed he has a high analytical capacity and outstanding business and market knowledge. He has excellent technical skills and is an excellent communicator, having done great presentations both in English and Portuguese. I would recommend him both as a professional and as a person."
     },
     {
       "testimonialBy": "Samuel Bulmer",
       "role": "Founder",
       "company": "LNG Converter",
-      
+      "location": "London, England",
+      "message": ""
     }
   ],
-  "articles": [],
-  "socials": []
+  "articles": {
+    "articlesHeader": "Articles",
+    "betterProgramming": {},
+    "linkedIN": {},
+    "towardsDataScience": {}
+  },
+  "socials": {}
 }

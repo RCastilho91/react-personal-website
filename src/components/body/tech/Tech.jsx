@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tech() {
   return (
-    <div className="tech" id="tech-container">
+    <div className="tech-container" id="tech-container">
       <h2>Stack</h2>
       <div className="frontend-tech">
         <div className="tech-title">

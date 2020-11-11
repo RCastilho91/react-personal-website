@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function SocialsContact(props){
+export default function SocialsContact(){
     return(
-        <div className="socials-contact" id="socials-contact">
+        <div className="socials-container" id="socials-container">
             Calendly
             LinkedIn
             GitHub
