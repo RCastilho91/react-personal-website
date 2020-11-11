@@ -1,4 +1,15 @@
 .tech-container {
     height: 100vh;
-    width: 35vw;
+    text-align: center;
 }
+
+.upper-tech, .lower-tech {
+    display: block;
+}
+
+.frontend-tech, .backend-tech, .database-tech, .misc-tech {
+    display: inline-block;
+    text-align: center;
+    width: 25vw;
+}
+

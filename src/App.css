@@ -6,4 +6,11 @@
 .testimonials-container {
   width: 70vw;
   margin: 0 auto;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(300px);
+  scroll-snap-type: y mandatory;
+}
+
+.App {
+  scroll-snap-type: y mandatory;
 }

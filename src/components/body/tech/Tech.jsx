@@ -1,33 +1,22 @@
 import React from "react";
-import "./Tech.css"
+import "./Tech.css";
+
+import Frontend from "./tech-divs/Frontend.jsx";
+import Backend from "./tech-divs/Backend.jsx";
+import Databases from "./tech-divs/Databases.jsx";
+import Misc from "./tech-divs/Misc.jsx";
 
 export default function Tech() {
   return (
     <div className="tech-container" id="tech-container">
       <h2>Stack</h2>
-      <div className="frontend-tech">
-        <div className="tech-title">
-          <h3>Frontend</h3>
-        </div>
-        <div className="tech-logos-container"></div>
+      <div className="upper-tech">
+        <Frontend />
+        <Backend />
       </div>
-      <div className="backend-tech">
-        <div className="tech-title">
-          <h3>Backend</h3>
-        </div>
-        <div className="tech-logos-container"></div>
-      </div>
-      <div className="database-tech">
-        <div className="tech-title">
-          <h3>Databases</h3>
-        </div>
-        <div className="tech-logos-container"></div>
-      </div>
-      <div className="misc-tech">
-        <div className="tech-title">
-          <h3>Miscellaneous</h3>
-        </div>
-        <div className="tech-logos-container"></div>
+      <div className="lower-tech">
+        <Databases />
+        <Misc />
       </div>
     </div>
   );
