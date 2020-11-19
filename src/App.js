@@ -25,13 +25,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header {...textToBeSent.header} switchLanguage={switchLanguage} />
-      <Hero {...textToBeSent.hero} />
+      <Header content={textToBeSent.header} switchLanguage={switchLanguage} />
+      <Hero content={textToBeSent.hero} />
       <Tech />
-      <Companies {...textToBeSent.companies} />
-      <Testimonials {...textToBeSent.testimonials} />
-      <Articles {...textToBeSent.articles} />
-      <Socials {...textToBeSent.socials} />
+      <Companies content={textToBeSent.companies} />
+      <Testimonials content={textToBeSent.testimonials} />
+      <Articles content={textToBeSent.articles} />
+      <Socials content={textToBeSent.socials} />
     </div>
   );
 }
