@@ -8,7 +8,7 @@ import Tech from "./components/body/tech/Tech.jsx";
 import Companies from "./components/body/companies/Companies.jsx";
 import Testimonials from "./components/body/testimonials/Testimonials.jsx";
 import Articles from "./components/body/articles/Articles";
-import SocialsContact from "./components/body/socials-contact/SocialsContact.jsx";
+import Socials from "./components/body/socials/Socials.jsx";
 
 // functionalities
 import englishText from "./assets/text/English.json";
@@ -31,7 +31,7 @@ function App() {
       <Companies {...textToBeSent.companies} />
       <Testimonials {...textToBeSent.testimonials} />
       <Articles {...textToBeSent.articles} />
-      <SocialsContact {...textToBeSent.socials} />
+      <Socials {...textToBeSent.socials} />
     </div>
   );
 }

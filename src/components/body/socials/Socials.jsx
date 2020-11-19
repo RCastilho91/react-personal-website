@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SocialsContact(){
+export default function Socials(){
     return(
         <div className="socials-container" id="socials-container">
             Calendly
