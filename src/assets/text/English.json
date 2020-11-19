@@ -35,12 +35,16 @@
       "role": "Founder",
       "company": "LNG Converter",
       "location": "London, England",
-      "message": ""
+      "message": "5 reasons why to hire Rodrigo: 1) Super smart and picks up on what you need straight away. 2) Very talented with a wide-ranging tachnical skill set. 3) Friendly, with a can-do attitude and outstanding service. 4) Provides daily updates even including GIFs/screenshots to show progress. 5) Proactive with exceptional attention to detail."
     }
   ],
   "articles": {
     "articlesHeader": "Articles",
-    "betterProgramming": {},
+    "betterProgramming": [{
+      "articleLink": "",
+      "articleTitle": "",
+      "articleDescription": ""
+    }],
     "linkedin": {},
     "towardsDataScience": {}
   },
